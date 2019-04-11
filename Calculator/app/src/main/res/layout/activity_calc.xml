@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.chait.calculator.CalcActivity">
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:gravity="center|end"
+        android:paddingRight="10sp"
+        android:id="@+id/textview1"/>
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:gravity="center|end"
+        android:padding="10sp"
+        android:id="@+id/textview2"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <Button
+            android:onClick="onbuttonclick"
+            android:id="@+id/btn7"
+            android:text="7"
+            style="@style/ButtonStyle"/>
+        <Button
+            android:onClick="onbuttonclick"
+            android:id="@+id/btn8"
+            android:text="8"
+            style="@style/ButtonStyle" />
+        <Button
+            android:onClick="onbuttonclick"
+            android:id="@+id/btn9"
+            android:text="9"
+            style="@style/ButtonStyle" />
+        <Button
+            android:onClick="operationrequest"
+            android:id="@+id/btnadd"
+            android:text="+"
+            style="@style/ButtonStyle" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <Button
+            android:onClick="onbuttonclick"
+            android:id="@+id/btn4"
+            android:text="4"
+            style="@style/ButtonStyle"/>
+        <Button
+            android:onClick="onbuttonclick"
+            android:id="@+id/btn5"
+            android:text="5"
+            style="@style/ButtonStyle" />
+        <Button
+            android:onClick="onbuttonclick"
+            android:id="@+id/btn6"
+            android:text="6"
+            style="@style/ButtonStyle" />
+        <Button
+            android:onClick="operationrequest"
+            android:id="@+id/btnsub"
+            android:text="-"
+            style="@style/ButtonStyle" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:onClick="onbuttonclick"
+            android:id="@+id/btn1"
+            android:text="1"
+            style="@style/ButtonStyle"/>
+        <Button
+            android:onClick="onbuttonclick"
+            android:id="@+id/btn2"
+            android:text="2"
+            style="@style/ButtonStyle" />
+        <Button
+            android:onClick="onbuttonclick"
+            android:id="@+id/btn3"
+            android:text="3"
+            style="@style/ButtonStyle" />
+        <Button
+            android:onClick="operationrequest"
+            android:id="@+id/btnmult"
+            android:text="x"
+            style="@style/ButtonStyle" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:onClick="clear"
+            android:id="@+id/btnclear"
+            android:text="C"
+            style="@style/ButtonStyle"/>
+        <Button
+            android:onClick="onbuttonclick"
+            android:id="@+id/btn0"
+            android:text="0"
+            style="@style/ButtonStyle" />
+        <Button
+            android:onClick="onbuttonclick"
+            android:id="@+id/btnequal"
+            android:text="="
+            style="@style/ButtonStyle" />
+        <Button
+            android:onClick="operationrequest"
+            android:id="@+id/btndivide"
+            android:text="/"
+            style="@style/ButtonStyle" />
+    </LinearLayout>
+
+</LinearLayout>

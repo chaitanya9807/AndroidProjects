@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="test">Quiz App</string>
+    <string-array name="Cquestions">
+        <item>Who Invented C language?</item>
+        <item>What is the use of printf()?</item>
+        <item>What is the extension to header files in C?</item>
+        <item>What is the use of malloc function?</item>
+        <item>What is the extension for a code file?</item>
+    </string-array>
+    <string-array name="Coptions">
+        <item>Dennis Ritchie</item><item>James Gosling</item><item>Jet Brains</item><item>Andy Rubin</item>
+        <item>To display on screen</item><item>To print via printer</item><item>To validate output</item><item>To create a slideshow</item>
+        <item>.c</item><item>.j</item><item>.kt</item><item>.h</item>
+        <item>To deallocate memory</item><item>To assign value to a variable</item><item>To dynamically allocate memory to a variable</item><item>To exit the current statement block</item>
+        <item>.h</item><item>.jv</item><item>.c</item><item>.kt</item>
+    </string-array>
+    <string-array name="Canswers">
+        <item>Dennis Ritchie</item>
+        <item>To display on screen</item>
+        <item>.h</item>
+        <item>To dynamically allocate memory to a variable</item>
+        <item>.c</item>
+    </string-array>
+    <string-array name="Cplusquestions">
+        <item>What is the extension for a C++ file?</item>
+        <item>What is the correct keyword for displaying an output on the screen?</item>
+        <item>What is the function of delete keyword?</item>
+        <item>Which keyword is used in switch statement to terminate a case?</item>
+        <item>When is the condition checked in a do-while statement?</item>
+    </string-array>
+    <string-array name="Cplusoptions">
+        <item>.cplus</item><item>.c</item><item>.cpp</item><item>.c++</item>
+        <item>cin</item><item>getch</item><item>cout</item><item>putchar</item>
+        <item>Dynamically allocate memory</item><item>Delete a variable</item><item>Delete a dynamically allocated variable</item><item>Clear the value stored in a variable</item>
+        <item>Continue</item><item>Stop</item><item>Break</item><item>None of the above</item>
+        <item>In the beginning</item><item>During the execution</item><item>At the end</item><item>None of the above</item>
+    </string-array>
+    <string-array name="Cplusanswers">
+        <item>.cpp</item>
+        <item>cout</item>
+        <item>Delete a dynamically allocated variable</item>
+        <item>Break</item>
+        <item>At the end</item>
+    </string-array>
+    <string-array name="Jquestions">
+        <item>The new operator</item>
+        <item>Which of the following statement is correct?</item>
+        <item>Java language has support for which of the following types of comments?</item>
+        <item>Command to execute a compiled java program is:</item>
+        <item>The java compiler:</item>
+    </string-array>
+    <string-array name="Joptions">
+        <item>Returns a pointer to a variable</item><item>Creates a variable called new</item><item>Obtains memory for a new variable</item><item>Tells how much memory is available</item>
+        <item>For positive numbers,result of operator >> and >>> are same</item><item>Java provides two operators to do left shift</item><item> >> is the zero fill right shift operator </item><item> >>> is the signed right shift operator</item>
+        <item>block,line and javadoc</item><item>javadoc,literal and string</item><item>javadoc,char and string</item><item>single,multiple and quote</item>
+        <item>javac</item><item>java</item><item>run</item><item>execute</item>
+        <item>Creates executable</item><item>Creates classes</item><item>Translates java source code to byte code</item><item>Produces java interpreter</item>
+    </string-array>
+    <string-array name="Janswers">
+        <item>Obtains memory for a new variable</item>
+        <item>For positive numbers,result of operator >> and >>> are same</item>
+        <item>block,line,javadoc</item>
+        <item>java</item>
+        <item>translates java source code to byte code</item>
+    </string-array>
+    <string-array name="Pyquestions">
+        <item>How to convert a string to an int?</item>
+        <item>Which of the following is a Python comment?</item>
+        <item>What is the correct way to change string python to have all upper case letters?</item>
+        <item>What does "math.floor(foo)" function do?</item>
+        <item>What is the correct way to define a function that does nothing?</item>
+    </string-array>
+    <string-array name="Pyoptions">
+        <item>int(some_str)</item><item>some_str.toint()</item><item>int.value_of(some_str)</item><item>None of the above</item>
+        <item>//I am a comment</item><item># No, I am a comment</item><item>Above two</item><item>None of the above</item>
+        <item>"python".toupper()</item><item>"python".upp()</item><item>"python".up() </item><item>"python".upper()</item>
+        <item>Return the absolute value of foo</item><item>Return the floor of foo as a float</item><item>Return the mantissa and exponent of foo</item><item>Return the ceiling of foo as a float</item>
+        <item>def foo(x,y):pass</item><item>def foo(x,y)</item><item>def foo(x,y):</item><item>def foo(x,y):pass()</item>
+    </string-array>
+    <string-array name="Pyanswers">
+        <item>int(some_str)</item>
+        <item># No, I am a comment</item>
+        <item>"python".upper()</item>
+        <item>Return the floor of foo as a float</item>
+        <item>def foo(x,y):pass</item>
+    </string-array>
+    <string-array name="Kquestions">
+        <item>What is the bit width of Double type?</item>
+        <item>Which visibility modifier is used by default when declared a class without modifier?</item>
+        <item>Which visibility modifier means that the member is visible within the same module?</item>
+        <item>Which keyword is used to allow a variable number of arguments to be passed to the function?</item>
+        <item>Is it possible in Kotlin to extend a class with new functionality without having to inherit from the class?</item>
+    </string-array>
+    <string-array name="Koptions">
+        <item>8</item><item>28</item><item>64</item><item>16</item>
+        <item>public</item><item>private</item><item>external</item><item>protected</item>
+        <item>private</item><item>public</item><item>protected</item><item>internal</item>
+        <item>arg</item><item>vararg</item><item>valarg</item><item>args</item>
+        <item>Yes,with receiver functions</item><item>Yes,with extension functions</item><item>Yes,but the class must implement Extending interface</item><item>No,not possible</item>
+    </string-array>
+    <string-array name="Kanswers">
+        <item>64</item>
+        <item>public</item>
+        <item>internal</item>
+        <item>vararg</item>
+        <item>Yes,with extension functions</item>
+    </string-array>
+</resources>
